@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Office Equipment Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header">
+        <div>
+          <h1>EOD Equipment Locations</h1>
+          <p>At the end of your shift, please fill out this sheet for Bot/Surrogate/Headset location tracking.</p>
+        </div>
+        <button type="button" class="panel-toggle" id="toggle-saves">Saved entries</button>
+      </header>
+
+      <section class="card">
+        <form id="assignment-form" autocomplete="off">
+          <div class="field-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+          </div>
+
+          <div class="field-row">
+            <label for="location">Location</label>
+            <select id="location" name="location"></select>
+          </div>
+
+          <div class="field-row">
+            <label for="robot">Robot</label>
+            <select id="robot" name="robot"></select>
+          </div>
+
+          <div class="field-row">
+            <label for="surrogate">Surrogate</label>
+            <select id="surrogate" name="surrogate"></select>
+          </div>
+
+          <div class="field-row">
+            <label for="headset">Headset</label>
+            <select id="headset" name="headset"></select>
+          </div>
+
+          <div class="field-row checkbox-row">
+            <label for="headset-on-surrogate">Headset on surrogate</label>
+            <input type="checkbox" id="headset-on-surrogate" name="headset_on_surrogate" class="checkbox-input" />
+          </div>
+
+          <div class="actions">
+            <button type="submit" class="save-btn">Save entry</button>
+            <p id="status-message" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <aside class="save-panel" id="save-panel">
+      <div class="panel-header">
+        <div>
+          <h2>Saved entries</h2>
+          <p>Automatically clears every {{ reset_hours }} hours</p>
+        </div>
+        <button class="panel-close" type="button" id="close-panel" aria-label="Close save panel">×</button>
+      </div>
+      <button type="button" class="ghost-btn panel-download" id="download-csv">Download CSV</button>
+      <ul id="entry-list" class="entry-list"></ul>
+    </aside>
+
+    <div class="confirm-overlay" id="confirm-overlay" aria-hidden="true">
+      <div class="confirm-modal" role="dialog" aria-modal="true" aria-labelledby="confirm-title">
+        <h3 id="confirm-title"></h3>
+        <p id="confirm-detail" class="confirm-detail"></p>
+        <div class="confirm-actions">
+          <button type="button" class="panel-toggle" id="confirm-yes">Yes</button>
+          <button type="button" class="ghost-btn" id="confirm-no">No</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="confirm-overlay" id="download-overlay" aria-hidden="true">
+      <div class="confirm-modal" role="dialog" aria-modal="true" aria-labelledby="download-title">
+        <h3 id="download-title">Download saved entries</h3>
+        <p class="confirm-detail">Choose an optional date and time range to filter the CSV export.</p>
+        <form id="download-form" class="download-form">
+          <label for="download-start">Start date & time</label>
+          <input type="datetime-local" id="download-start" name="download_start" />
+
+          <label for="download-end">End date & time</label>
+          <input type="datetime-local" id="download-end" name="download_end" />
+
+          <div class="confirm-actions">
+            <button type="submit" class="panel-toggle">Download CSV</button>
+            <button type="button" class="ghost-btn" id="download-cancel">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script defer src="{{ url_for('static', filename='app.js') }}"></script>
+  </body>
+</html>

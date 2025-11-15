@@ -1,0 +1,172 @@
+ * Serving Flask app 'main'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.19.12:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 536-188-485
+127.0.0.1 - - [14/Nov/2025 14:23:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:23:54] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:23:54] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:23:54] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:23:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Nov/2025 14:26:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:26:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 14:26:57] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 14:26:57] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:31:48] "[35m[1mPOST /api/entries HTTP/1.1[0m" 201 -
+127.0.0.1 - - [14/Nov/2025 14:31:48] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:33:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:33:09] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:33:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 14:33:09] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:33:10] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:33:38] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:41:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:41:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 14:41:09] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:41:09] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:44:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:44:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 14:44:27] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 14:44:27] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:52:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:52:33] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:52:33] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 14:52:33] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:53:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:53:40] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 14:53:40] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 14:53:40] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:00:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:00:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 15:00:30] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:00:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:00:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 15:00:39] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 15:03:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:03:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 15:03:43] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:03:43] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:06:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:06:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 15:06:36] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 15:06:36] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:13:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:13:29] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:13:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 15:13:29] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:13:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:13:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 15:13:31] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 15:13:31] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:46:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:46:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 15:46:44] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:46:44] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:47:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 15:47:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 15:47:06] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 15:47:06] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 16:54:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 16:54:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 16:54:12] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 16:54:12] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 16:58:01] "[35m[1mPOST /api/entries HTTP/1.1[0m" 201 -
+127.0.0.1 - - [14/Nov/2025 16:58:01] "GET /api/entries HTTP/1.1" 200 -
+ * Detected change in '/Users/sofiadysart-briken/Documents/code/bot-surrogate-headset-tracking/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 536-188-485
+127.0.0.1 - - [14/Nov/2025 17:43:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 17:43:10] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 17:43:10] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 17:43:10] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 17:43:17] "[35m[1mPOST /api/entries HTTP/1.1[0m" 201 -
+127.0.0.1 - - [14/Nov/2025 17:43:17] "GET /api/entries HTTP/1.1" 200 -
+ * Detected change in '/Users/sofiadysart-briken/Documents/code/bot-surrogate-headset-tracking/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 536-188-485
+127.0.0.1 - - [14/Nov/2025 18:44:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 18:44:30] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 18:44:30] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 18:44:30] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 18:44:34] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 18:44:37] "DELETE /api/entries/210c3b09-1dcf-4c6c-bd32-7ee5e8eea87b HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 18:44:37] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 18:44:39] "DELETE /api/entries/0c78563e-77ac-4382-b09e-8a3aab6e37a3 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 18:44:39] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 19:11:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 19:11:14] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 19:11:14] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 19:11:14] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 19:11:19] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 19:57:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 19:57:38] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 19:57:38] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 19:57:38] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 19:57:39] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 19:58:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 19:58:16] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 19:58:16] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 19:58:16] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 19:58:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [14/Nov/2025 19:58:17] "GET /api/entries HTTP/1.1" 200 -
+ * Detected change in '/Users/sofiadysart-briken/Documents/code/bot-surrogate-headset-tracking/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 536-188-485
+ * Detected change in '/Users/sofiadysart-briken/Documents/code/bot-surrogate-headset-tracking/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 536-188-485
+ * Detected change in '/Users/sofiadysart-briken/Documents/code/bot-surrogate-headset-tracking/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 536-188-485
+127.0.0.1 - - [14/Nov/2025 20:36:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:36:59] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:36:59] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:36:59] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:37:04] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:37:52] "GET /api/entries/export HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:38:23] "[35m[1mPOST /api/entries HTTP/1.1[0m" 201 -
+127.0.0.1 - - [14/Nov/2025 20:38:23] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:38:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:38:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 20:38:36] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 20:38:36] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:38:37] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:38:48] "[35m[1mPOST /api/entries HTTP/1.1[0m" 201 -
+127.0.0.1 - - [14/Nov/2025 20:38:48] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:38:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:38:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 20:38:57] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 20:38:57] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:40:05] "[35m[1mPOST /api/entries HTTP/1.1[0m" 201 -
+127.0.0.1 - - [14/Nov/2025 20:40:05] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:40:09] "GET /api/entries/export HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:53:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:53:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 20:53:17] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:53:17] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:53:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:53:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 20:53:44] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:53:44] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:53:48] "[35m[1mPOST /api/entries HTTP/1.1[0m" 201 -
+127.0.0.1 - - [14/Nov/2025 20:53:48] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:56:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:56:14] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:56:14] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:56:14] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 20:56:17] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 21:00:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 21:00:51] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 21:00:51] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [14/Nov/2025 21:00:51] "GET /api/entries HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 21:00:53] "GET /api/entries HTTP/1.1" 200 -

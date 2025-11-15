@@ -1,0 +1,55 @@
+{
+  "last_reset": "2025-11-14T22:31:48.714181+00:00",
+  "entries": [
+    {
+      "id": "96fbdeac-4a58-4e13-b7c3-fb7afe7b85f1",
+      "name": "pine",
+      "location": "Room C",
+      "robot": "B-007",
+      "surrogate": "TB-010",
+      "headset": "8",
+      "headsetOnSurrogate": true,
+      "timestamp": "2025-11-14T22:31:48.714225+00:00"
+    },
+    {
+      "id": "02ac2855-4ac6-4fb9-b106-2f0daf664ba0",
+      "name": "",
+      "location": "",
+      "robot": "B-005",
+      "surrogate": "",
+      "headset": "",
+      "headsetOnSurrogate": false,
+      "timestamp": "2025-11-15T04:38:23.614647+00:00"
+    },
+    {
+      "id": "178a5272-6141-4062-baab-f36c3286d43e",
+      "name": "",
+      "location": "",
+      "robot": "",
+      "surrogate": "TB-004",
+      "headset": "15",
+      "headsetOnSurrogate": false,
+      "timestamp": "2025-11-15T04:38:48.617768+00:00"
+    },
+    {
+      "id": "7105a9e5-35d5-4f62-a60c-e4a4aca2b065",
+      "name": "",
+      "location": "",
+      "robot": "B-011",
+      "surrogate": "TB-002",
+      "headset": "6",
+      "headsetOnSurrogate": true,
+      "timestamp": "2025-11-15T04:40:05.576384+00:00"
+    },
+    {
+      "id": "a9df1f7e-fb60-495e-851c-cde424043000",
+      "name": "",
+      "location": "",
+      "robot": "B-005",
+      "surrogate": "",
+      "headset": "",
+      "headsetOnSurrogate": false,
+      "timestamp": "2025-11-15T04:53:48.854167+00:00"
+    }
+  ]
+}
